@@ -73,7 +73,7 @@ A simple Customer Relationship Management (CRM) system built using Django. This 
 ```bash
 crm/
 │
-├── agents/                    # Main application folder
+├── agents/                 # Main application folder
 │   ├── migrations/         # Database migrations
 │   ├── templates/          # HTML templates for the frontend
 │   ├── static/             # Static files (CSS, JS, images)
@@ -86,7 +86,7 @@ crm/
 │   └── resources.py        # Decoratater for authentication
 │
 |
-├── crm/            # Main Django project folder
+├── crm/                    # Main Django project folder
 │   ├── asgi.py  
 │   ├── settings.py         # Configuration and settings
 │   ├── wsgi.py  
