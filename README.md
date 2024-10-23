@@ -112,7 +112,7 @@ crm/
 │   └── forms.py            # Forms for the app
 │   └── resources.py        # Decoratater for authentication
 │
-├── static/             # Static files (CSS, JS, images)
-├── templates/          # HTML templates for the frontend    
+├── static/                 # Static files (CSS, JS, images)
+├── templates/              # HTML templates for the frontend    
 ├── manage.py               # Django's command-line utility
 └── requirements.txt        # Python dependencies
