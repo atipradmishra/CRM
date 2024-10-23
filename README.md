@@ -85,14 +85,12 @@ crm/
 │   └── forms.py            # Forms for the app
 │   └── resources.py        # Decoratater for authentication
 │
-|
 ├── crm/                    # Main Django project folder
 │   ├── asgi.py  
 │   ├── settings.py         # Configuration and settings
 │   ├── wsgi.py  
 │   └── urls.py             # Main URL routing
-|
-|
+│
 ├── customers/              # Main application folder
 │   ├── migrations/         # Database migrations
 │   ├── views.py            # Business logic and rendering views
@@ -101,8 +99,7 @@ crm/
 │   └── admin.py            # Admin Page for the app
 │   └── apps.py
 │   └── forms.py            # Forms for the app
-|
-|
+│
 ├── leads/                  # Main application folder
 │   ├── migrations/         # Database migrations
 │   ├── templates/          # HTML templates for the frontend
