@@ -1,0 +1,32 @@
+{% extends 'base.html'  %}
+
+{% block  content %}
+<style>
+    .btn {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 30px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 10px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: white; 
+        color: black; 
+        border: 2px solid #8E7FFE;
+        border-radius: 12px;
+      }
+      .btn:hover {
+        background-color: #4CAF50;
+        color: white;
+      }
+</style>
+<body>
+    <a class="btn" href="{% url 'agents:agent-list' %}">Agents</a>
+    <a class="btn" href="{% url 'leads:customers-list' %}">Customers</a>
+    <button class="btn">Product</button>
+  </body>
+  {% endblock content %}
